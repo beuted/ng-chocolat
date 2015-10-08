@@ -15,7 +15,7 @@ To work it expects :
 recent browsers such as :
 IE 7+, Safari, Firefox & Chrome.
 
-##Bower
+##Installing via Bower
 ```
 > bower install ng-chocolat --save
 ```
