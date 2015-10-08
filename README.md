@@ -15,7 +15,12 @@ To work it expects :
 recent browsers such as :
 IE 7+, Safari, Firefox & Chrome.
 
-##Markup
+##Bower
+```
+> bower install ng-chocolat --save
+```
+
+## Markup
 -----------
 ```html
 <div chocolat set-title="Set title">
