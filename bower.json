@@ -1,6 +1,6 @@
 {
   "name": "ng-chocolat",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "authors": [
     "Benoit deKajoo <dekajoo@gmail.com>"
   ],
@@ -21,7 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.5",
-    "chocolat": "~0.4.9"
+    "angular": "~1.6.4",
+    "chocolat": "~0.4.18"
   }
 }

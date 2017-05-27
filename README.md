@@ -7,15 +7,21 @@
 #### Dependencies
 
 To work it expects :
-- chocolat.js (tested with 0.4.9): https://github.com/nicolas-t/Chocolat
+- chocolat.js (tested with 0.4.18): https://github.com/nicolas-t/Chocolat
 - jQuery (required by chocolat either 1.x or 2.x): https://github.com/jquery/jquery
-- angularjs (tested with 1.4.5): https://github.com/angular/angular
+- angularjs (tested with 1.6.4): https://github.com/angular/angular
 
 #### Compatibility
 recent browsers such as :
 IE 7+, Safari, Firefox & Chrome.
 
-##Installing via Bower
+## Installing
+```
+> npm install ng-chocolat --save
+```
+
+or
+
 ```
 > bower install ng-chocolat --save
 ```
@@ -93,7 +99,7 @@ Set index. yes.
 Array of object representing the set images `[{src:'img1.jpg'}, {src:'img1.jpg'}, ...]`
 You can also specify image title `[{src:'img1.jpg', title: 'title'}, ..]`
 
-**instance: '='**  `default : []`
+**instance: '=?'**  `default : []`
 Instance of the object returned by chocolat. You will be able to call the chocolat `api()` on it. (See next)
 
 

@@ -6,7 +6,7 @@ angular.module('chocolat', [])
 
         scope: {
             /// Instance of the object returned by chocolat to use the api()
-            instance: '=',
+            instance: '=?',
             config: '&',
             images: '&',
             container: '@',
